@@ -1,0 +1,31 @@
+.widget.widget-bamboo-plan-with-branches {
+  vertical-align: top;
+}
+
+.widget-bamboo-plan-with-branches {
+  background: lightblue;
+}
+
+.plan {
+  background: yellowgreen;
+}
+
+.plan-broken {
+  background: red;
+}
+
+.all-branches-green{
+  background:green;
+}
+
+.no-clue {
+  background: gray;
+}
+
+.failed-branches {
+  text-align: left;
+}
+
+.hidden {
+  visibility: hidden;
+}
