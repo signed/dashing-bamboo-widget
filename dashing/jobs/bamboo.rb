@@ -13,7 +13,6 @@ configuration = {
     :refresh_rate => '10s',
     :plan_keys => %w[AP-FAIL AP-SUCCEED].uniq
 }
-# trouble plan SRVCS-AUDIOV2MOCKS
 #--------------------------------------------------------------------------------
 
 def pretty_print_json(json)

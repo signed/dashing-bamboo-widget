@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp dashing/dashboards/bamboo.erb installation/dashboards/
+cp dashing/jobs/bamboo.rb installation/jobs/
+cp dashing/widgets/bamboo/ installation/widgets/ -R
