@@ -5,8 +5,10 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B07804338C
     apt-get install apt-transport-https -y && \
     apt-get update && \
     apt-get install atlassian-plugin-sdk openjdk-8-jdk -y && \
+    /var/lib/dpkg/info/ca-certificates-java.postinst configure && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
-    useradd -ms /bin/bash bamboo     
+    useradd -ms /bin/bash bamboo    
+    
 
 ENV USER_HOME /home/bamboo
 ENV MAVEN_REPOSITORY $USER_HOME/.m2
